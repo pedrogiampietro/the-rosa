@@ -220,6 +220,103 @@ header {
 	margin: 0 1.6rem;
 }
 
-.headerline-description h5 {
-    color: #fff;
+.headline-description h5 {
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin-bottom: 1.2rem;
+	letter-spacing: 3px;
+	margin-right: -3px;
 }
+
+.btn {
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-right: -2px;
+}
+
+.cta-btn {
+	font-size: 1.1rem;
+	background-color: #fff;
+	padding: 0.9rem 1.8rem;
+	color: var(--body-font-color);
+	border-radius: 0.4rem;
+	transition: background-color 0.5s;
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+	color: #fff;
+	background-color: var(--secondary-font-color);
+}
+
+/* Discover our story  */
+.global-headline {
+	text-align: center;
+	margin-top: 3.9rem;
+}
+
+.discover-our-story .global-headline {
+	margin-top: 6.9rem;
+}
+
+.global-headline .asterisk {
+	color: var(--body-font-color);
+	margin: 2.4rem 0;
+}
+
+.headline-dark {
+	color: var(--main-font-color-dark);
+	letter-spacing: 0.7rem;
+	margin-right: -0.7rem;
+}
+
+.global-headline .sub-headline {
+	letter-spacing: -1px;
+	line-height: 0.42;
+}
+
+.restaurant-info {
+	text-align: center;
+}
+
+.restaurant-description {
+	margin-bottom: 3rem;
+}
+
+.restaurant-description p {
+	line-height: 1.6;
+	margin-bottom: 2.4rem;
+}
+
+.body-btn {
+	font-size: 1.5rem;
+	color: var(--secondary-font-color);
+	position: relative;
+	transition: color 0.5s;
+}
+
+.body-btn::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -3px;
+	width: 100%;
+	height: 2px;
+	background-color: var(--secondary-font-color);
+	transition: background-color 0.5s;
+}
+
+.body-btn:hover,
+.body-btn:focus {
+	color: var(--main-font-color-dark);
+}
+
+.body-btn:hover::before,
+.body-btn:focus::before {
+	background-color: var(--main-font-color-dark);
+}
+
+/* Tasteful recipes */
